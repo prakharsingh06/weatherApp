@@ -1,0 +1,35 @@
+.searchBar {
+  margin-top: 150px;
+  color: black !important;
+}
+
+.newRow {
+  padding-top: 80px;
+}
+input:focus {
+  border-bottom: 1px solid #000 !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+label.active {
+  color: #000 !important;
+  font-size: larger !important;
+}
+
+.main-header {
+  background: url(../img/img2.jpeg);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: #fff;
+  height: 100%;
+}
+
+.main-header-1 {
+  background: url(../img/img2.jpeg);
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: #fff;
+  height: 100%;
+}

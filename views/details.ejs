@@ -1,0 +1,44 @@
+<%- include("partials/header"); -%>
+
+<header class="main-header-1">
+    <div class="showcase container">
+        <div class="row newRow">
+          <div class="col s12 m10 center offset-m1">
+            <h2 class="center"><%=currentData.name%></h2>
+            <img class="descImg" src="http://openweathermap.org/img/wn/<%=currentData.weather[0].icon%>@2x.png">
+            <hr>
+            
+            <h4><span class="left"><%=currentData.main.temp%> &deg;C</span> <span class="right"> <%=currentData.weather[0].main%></span> </h4><br><br> <hr>
+                
+            
+                <h5><span class="left">Minimum : <%=currentData.main.temp_min%> &deg;C</span> 
+                <span class="right">Maximum : <%=currentData.main.temp_max%>&deg;C </span> </h5>
+                <br><br> <hr>
+                <h5><span class="left">Humidity : <%=currentData.main.humidity%> </span>
+                <span class="right">Wind Speed : <%=currentData.wind.speed%> km/hr </span></h5><br><br> <hr>
+                
+                
+            
+            
+          </div>
+        </div>
+      </div>
+            
+            
+
+
+        </div>
+    </div>
+</div>
+</header>
+
+
+
+
+
+
+
+
+
+
+<%- include("partials/footer"); -%>
