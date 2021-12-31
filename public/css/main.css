@@ -16,7 +16,7 @@ label.active {
 }
 
 .main-header {
-  background: url(../img/img2.jpeg);
+  background: url(../img/img1.jpeg);
   background-size: cover;
   background-position: center;
   min-height: 600px;
@@ -25,7 +25,7 @@ label.active {
 }
 
 .main-header-1 {
-  background: url(../img/img2.jpeg);
+  background: url(../img/img2.png);
   opacity: 0.9;
   background-size: cover;
   background-position: center;
