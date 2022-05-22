@@ -41,43 +41,6 @@ app.post("/",function(req,res){
     
     
 
-// const output = "";
-
-
-// app.get("/",function(req,res){
-    
-
-//     res.sendFile(__dirname+"/index.html");
-        
-//     });
-    
-    
-    
-    
-    
-    
-// app.post("/",function(req,res){
-//     const query = req.body.cityName;
-//     const url = "https://api.openweathermap.org/data/2.5/weather?q=" + query + "&units=metric&appid=ee32e545ca6fe4913433584698dd2135";
-
-//     https.get(url,function(response){
-//         console.log(response.statusCode);
-
-//         response.on("data",function(data){
-//             const weatherData = JSON.parse(data);
-//             console.log(weatherData.main.temp);
-//             const temp = weatherData.main.temp;
-//            res.send("<h1>The temperature in "+query+" is : "+temp+"</h1>");
-            
-//         })
-
-
-// });
-// });
-
-
-
-// const query = "Delhi"
 
 
 
